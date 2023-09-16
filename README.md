@@ -17,8 +17,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
--  [Solution URL](https://www.frontendmentor.io/solutions/profile-card-component-ZBZInVB_BA)
--  [Live Site URL](https://liam-mcleod.github.io/FrontendMentor-Product-Preview-Component/)
+-  [Solution URL](https://www.frontendmentor.io/solutions/huddle-landing-page-F44_2W8d9E)
+-  [Live Site URL](https://liam-mcleod.github.io/FrontendMentor-Huddle-Landing-Page/)
 
 ## Author
 - Frontend Mentor - [@Liam-McLeod](https://www.frontendmentor.io/profile/Liam-McLeod)
