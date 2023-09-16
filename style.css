@@ -1,0 +1,145 @@
+:root {
+
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+
+    --default-font-family: 'Poppins', sans-serif;
+    --secondary-font-family: 'Open Sans', sans-serif;
+    
+    --fw-default-regular: 400;
+    --fw-default-semibold: 600;
+
+    --fw-secondary: 400
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+    font-family: var(--default-font-family);
+    font-weight: var(--fw-default-regular);
+    color: white;
+    height: 100vh;
+    background-color: var(--Violet);
+    margin: 2rem 2rem;
+    background-image: url("images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    font-size: 16px;
+}
+
+.main-card {
+    display: grid;
+    gap: 3rem;
+}
+
+.design {
+    display: grid;
+    gap: 3rem;
+}
+
+.design-logo {
+    width: 8rem;
+}
+
+.register {
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+}
+
+.register-title {
+    font-size: 1.5rem;
+    font-weight: var(--fw-default-semibold);
+}
+
+.register-desc {
+    font-family: var(--secondary-font-family);
+    font-weight: var(--fw-secondary);
+    opacity: 0.8
+}
+
+.register-btn {
+    border-radius: 50rem;
+    border: none;
+    color: var(--Violet);
+    padding: 0.6rem;
+    width: 11rem;
+    font-size: 0.7rem;
+    margin-inline: auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-icons i {
+    border: 1px solid white;
+    border-radius: 50rem;
+    padding: 0.5rem;
+    width: 2rem;
+    display: grid;
+    place-items: center;
+}
+
+@media (min-width: 600px) {
+    body {
+        display: grid;
+        place-items: center;
+        background-color: var(--Violet);
+        background-image: url("images/bg-desktop.svg");
+    }
+
+    .main-card {
+        grid-template-columns: 1fr 1fr;
+        padding: 3rem;
+        gap: 3rem;
+        
+    }
+
+    .design-logo {
+        width: 14rem;
+    }
+
+    .register {
+        text-align: left;
+        align-content: start;
+        margin-top: 7rem;
+    }
+
+    .register-title {
+        font-size: 2.5rem;
+        width: 30rem;
+    }
+
+    .register-desc {
+        font-size: 1.4rem;
+    }
+
+    .register-btn {
+        margin: 0;
+        font-size: 1.2rem;
+        padding: 0.9rem;
+    }
+
+    .social-icons {
+        grid-column: 2;
+        margin-left: auto;
+    }
+    
+}
